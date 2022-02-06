@@ -4,6 +4,8 @@ document.querySelector('#frame-1').addEventListener('mouseover',()=>{
     overLappingWidget.style.display='block';
     overLappingWidget.style.top='6%';
 
+    document.querySelector('#preview i').click()
+
     document.querySelector('#frame-2 span').style.color='white'
     document.querySelector('#frame-2 i').style.color='white'
 
@@ -21,6 +23,8 @@ document.querySelector('#frame-1').addEventListener('mouseover',()=>{
 document.querySelector('#frame-2').addEventListener('mouseover',()=>{
     overLappingWidget.style.display='block';
     overLappingWidget.style.top='24%';
+
+    document.querySelector('#preview i').click()
 
     document.querySelector('#frame-1 span').style.color='white'
     document.querySelector('#frame-1 i').style.color='white'
@@ -40,6 +44,8 @@ document.querySelector('#frame-3').addEventListener('mouseover',()=>{
     overLappingWidget.style.display='block';
     overLappingWidget.style.top='43%';
 
+    document.querySelector('#preview i').click()
+
     document.querySelector('#frame-1 span').style.color='white'
     document.querySelector('#frame-1 i').style.color='white'
 
@@ -58,6 +64,8 @@ document.querySelector('#frame-4').addEventListener('mouseover',()=>{
     overLappingWidget.style.display='block';
     overLappingWidget.style.top='61%';
 
+    document.querySelector('#preview i').click()
+
     document.querySelector('#frame-1 span').style.color='white'
     document.querySelector('#frame-1 i').style.color='white'
 
@@ -75,6 +83,8 @@ document.querySelector('#frame-4').addEventListener('mouseover',()=>{
 document.querySelector('#frame-5').addEventListener('mouseover',()=>{
     overLappingWidget.style.display='block';
     overLappingWidget.style.top='79%';
+
+    document.querySelector('#preview i').click()
 
     document.querySelector('#frame-1 span').style.color='white'
     document.querySelector('#frame-1 i').style.color='white'
