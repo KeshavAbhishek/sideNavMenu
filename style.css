@@ -35,7 +35,12 @@
     flex-direction: column;
     font-size: 20vw;
     color: white;
+    background: red;
     position: relative;
+}
+
+#preview i{
+    color: white;
 }
 
 #sideMenu ul{
