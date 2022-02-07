@@ -108,8 +108,8 @@
 
 
 #iconColorManager{
-    width: 33%;
-    height: 33%;
+    width: 20vw;
+    height: 20vh;
     background: rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 1%;
