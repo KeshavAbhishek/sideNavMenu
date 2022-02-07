@@ -64,11 +64,11 @@
     margin-right: 10%;
 }
 
-#sideMenu ul li:hover{
+/* #sideMenu ul li:hover{
     color: rgb(38, 152, 245);
-    /* background: white; */
+    background: white;
     transition: color 0.5s ease;
-}
+} */
 
 #sideMenu ul li p,i{
     padding: 2% 0;
@@ -90,7 +90,7 @@
 
 
 
-#menuLink-1:hover~#overLap{
+/* #menuLink-1:hover~#overLap{
     display: block;
     top: 0.85%;
 }
@@ -109,4 +109,20 @@
 #menuLink-5:hover~#overLap{
     display: block;
     top: 80.15%;
+} */
+
+#menuLink-1:not(:hover){
+    color: white;
+}
+#menuLink-2:not(:hover){
+    color: white;
+}
+#menuLink-3:not(:hover){
+    color: white;
+}
+#menuLink-4:not(:hover){
+    color: white;
+}
+#menuLink-5:not(:hover){
+    color: white;
 }
